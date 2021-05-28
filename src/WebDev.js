@@ -8,6 +8,7 @@ import TMJ from './TMJ.jpg';
 import JetAction from './JetAction.jpg';
 import SFS from './SFS.jpg';
 import DateNightFoorReviews from './DateNightFoorReviews.jpg';
+import { Fade } from 'react-bootstrap';
 
 export default function WebDev(props)
 {
@@ -46,10 +47,13 @@ export default function WebDev(props)
 
     return (
       <Carousel
-        animation="slide"
-        swipe="true"
-        indicators="true"
-        navButtonsAlwaysVisible="true"
+        autoPlay={true}
+        interval={10000}
+        animation="fade"
+        timeout={1000}
+        swipe={true}
+        indicators={true}
+        navButtonsAlwaysVisible={true}
         NavButton={({onClick, className, style, next, prev}) => {
             // Other logic
     
