@@ -6,7 +6,7 @@ h2 {
 
 .Carousel-root-1 {
     width: 100%;
-    max-height: 100vh;
+    max-height: 90vh;
     overflow: hidden;
     position: relative;
 }
@@ -55,6 +55,19 @@ h2 {
 
 .NavArrows {
     background-color: white !important;
+}
+
+.PageWrapper {
+    background: #232323;
+}
+
+.NavMenu {
+    height: 10vh;
+    background: #232323;
+    margin-top: -1.2%;
+}
+
+.MainSection {
 }
 
 /* Bootstap CSS Overrides */

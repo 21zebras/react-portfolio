@@ -9,7 +9,7 @@ import JetAction from './JetAction.jpg';
 import SFS from './SFS.jpg';
 import DateNightFoorReviews from './DateNightFoorReviews.jpg';
 
-function WebDev(props)
+export default function WebDev(props)
 {
     var items = [
         {
@@ -88,5 +88,3 @@ function Item(props)
       </div>
     )
 }
-
-export default WebDev;
