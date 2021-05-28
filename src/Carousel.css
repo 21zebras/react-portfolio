@@ -1,0 +1,99 @@
+h2 {
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Carousel-root-1 {
+    width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.CarouselItem {
+    width: 100%;
+}
+
+.webPortfolio {
+    width: 100%;
+    object-fit: cover !important;
+}
+
+.MainContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #0098c7;
+    padding: 0 5%;
+}
+
+.ProjectInfo {
+    width: 45%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+}
+
+.ProjectImage {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+}
+
+.LobiBox {
+    color: #0098c7;
+}
+
+.CheckButton {
+    width: 25%;
+    color: white !important;
+    background-color: #222222 !important;
+}
+
+.NavArrows {
+    background-color: white !important;
+}
+
+/* Bootstap CSS Overrides */
+.MuiPaper-elevation1 {
+    padding: 5%;
+}
+
+.Carousel-buttonWrapper-6 {
+    top: calc(50% - 70px);
+    height: 100px;
+    position: absolute;
+    background-color: transparent;
+}
+
+.Carousel-prev-12 {
+    left: 10% !important;
+    top: 86% !important;
+    z-index: 98;
+}
+
+.Carousel-next-11 {
+    right: 55% !important;
+    top: 86% !important;
+    z-index: 99;
+}
+
+.Carousel-indicators-2 {
+    width: 100% !important;
+    position: absolute;
+    margin-top: -5% !important;
+    text-align: left !important;
+    bottom: 9% !important;
+    left: 24.2% !important;
+}
+
+.Carousel-indicator-3 {
+    color: white !important;
+}
+
+.Carousel-active-5 {
+    color: rgba(0, 0, 0, 0.87) !important;
+}

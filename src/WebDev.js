@@ -1,10 +1,4 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 import Carousel from 'react-material-ui-carousel';
 import { Paper, Button } from '@material-ui/core';
 import './Carousel.css';
@@ -15,7 +9,7 @@ import JetAction from './JetAction.jpg';
 import SFS from './SFS.jpg';
 import DateNightFoorReviews from './DateNightFoorReviews.jpg';
 
-function App(props)
+function WebDev(props)
 {
     var items = [
         {
@@ -95,4 +89,4 @@ function Item(props)
     )
 }
 
-export default App;
+export default WebDev;
